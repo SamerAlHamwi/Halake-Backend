@@ -1,0 +1,84 @@
+.text-grey {
+    color: grey !important;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+.starDisabled {
+    color: rgb(184, 184, 184) !important;
+}
+
+.starActive {
+    color: orangered !important;
+}
+
+.invoice-item {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.invoice-item p,
+.medicine-item p {
+    margin: 0;
+}
+
+.invoice-item:last-child {
+    border-bottom: none;
+    background-color: #363636;
+    color: white;
+}
+
+.p-data {
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+.owner-img-border {
+    border: 2px solid #156779 !important;
+}
+
+.bg-cat-tag {
+    background: #d8f6fd;
+    color: #156779 !important;
+}
+
+.word-wrap td {
+    white-space: normal !important;
+}
+.word-wrap tr th:nth-child(3),
+.word-wrap tr td:nth-child(3) {
+    width: 200px !important;
+    white-space: normal !important;
+}
+.salon_image {
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.salon_image i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ffffff4f;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    backdrop-filter: blur(7px);
+}
