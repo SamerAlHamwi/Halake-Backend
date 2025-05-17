@@ -1,4 +1,4 @@
-var domainUrl = "https://api-test.wazzifni.net/";
+var domainUrl = "https://admin.wazzifni.net/";
 var sourceUrl = `${domainUrl}public/storage/`;
 
 var strings = {
