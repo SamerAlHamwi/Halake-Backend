@@ -1,3 +1,4 @@
+// var domainUrl = "http://127.0.0.1:8000/";
 var domainUrl = "https://admin.wazzifni.net/";
 var sourceUrl = `${domainUrl}public/storage/`;
 
